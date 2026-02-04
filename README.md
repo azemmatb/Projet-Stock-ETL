@@ -33,8 +33,11 @@ Aperçu du Résultat
 Le script génère automatiquement un tableau de bord consolidé:
 
 | Produit | Quantité Totale | Valorisation (€) |
-| Chaise  |        8        |      360 €       |
-| Lampe   |       50        |      750 €       |
+| :--- | :---: | :---: |
+| Chaise | 8 | 360 € |
+| Lampe | 50 | 750 € |
+| Table | 5 | 600 € |
+| Tapis | 20 | 1200 € |
 
 
 Pourquoi ce projet ?
