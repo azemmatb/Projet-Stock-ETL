@@ -12,12 +12,12 @@ En tant que Data Engineer, j'ai construit un pipeline ETL (Extract, Transform, L
 Fonctionnalités
 
 Ce script Python automatise les étapes suivantes :
-1.  Extraction (Extract) :** Chargement des données brutes (Mouvements de stock & Référentiel produits).
+1.  Extraction (Extract) : Chargement des données brutes (Mouvements de stock & Référentiel produits).
 2.  Transformation (Transform) :
     * Nettoyage et standardisation des données.
-    * **Jointure (Merge) : Réconciliation des mouvements avec les détails produits (prix, catégorie).
-    * **Calculs Financiers : Valorisation automatique des stocks (Quantité x Prix Unitaire).
-    * **Agrégation (GroupBy) : Génération de KPIs par type de produit.
+    * Jointure (Merge) : Réconciliation des mouvements avec les détails produits (prix, catégorie).
+    * Calculs Financiers : Valorisation automatique des stocks (Quantité x Prix Unitaire).
+    * Agrégation (GroupBy) : Génération de KPIs par type de produit.
 4.  Chargement (Load) : Export automatique d'un rapport de synthèse ('rapport_financie.csv') prêt pour l'analyse décisionnelle.
 
 
