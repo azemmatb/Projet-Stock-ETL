@@ -41,6 +41,6 @@ Pourquoi ce projet ?
 
 Ce projet démontre ma capacité à :
 
-Remplacer des processus manuels (VLOOKUP Excel) par du code Python performant.
+Remplacer des processus manuels (VLOOKUP Excel) par du code Python.
 Manipuler des DataFrames et réaliser des agrégations complexes.
 Structurer un code propre et maintenable pour l'industrie.
