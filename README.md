@@ -1,38 +1,37 @@
-# Système de Gestion de Stock & Valorisation (ETL Python)
+# Stock Management & Valuation (Python ETL)
 
-## Contexte du Projet
-Ce projet simule une problématique réelle de logistique (type Retail/Entrepôt).
-L'objectif est d'automatiser le suivi des stocks et la valorisation financière des mouvements, tâches souvent effectuées manuellement sur Excel.
+## Project context
+This project simulates a real logistics problem (retail / warehouse).
+The goal is to automate stock tracking and the financial valuation of stock movements, tasks that are often done by hand in Excel.
 
-En tant que **Data Engineer**, j'ai construit un pipeline ETL (Extract, Transform, Load) capable de traiter des volumes de données pour produire des rapports financiers fiables.
+I built an ETL pipeline (Extract, Transform, Load) that processes the data and produces reliable financial reports.
 
-## Fonctionnalités
-Ce script Python automatise les étapes suivantes :
-1. **Extraction (Extract) :** Chargement des données brutes (Mouvements de stock & Référentiel produits).
-2. **Transformation (Transform) :**
-    * Nettoyage et standardisation des données.
-    * **Jointure (Merge) :** Réconciliation des mouvements avec les détails produits (prix, catégorie).
-    * **Calculs Financiers :** Valorisation automatique des stocks (Quantité x Prix Unitaire).
-    * **Agrégation (GroupBy) :** Génération de KPIs par type de produit.
-3. **Chargement (Load) :** Export automatique d'un rapport de synthèse (`rapport_finance.csv`) prêt pour l'analyse décisionnelle.
+## Features
+The Python script automates the following steps:
+1. **Extract:** loading the raw data (stock movements and product master data).
+2. **Transform:**
+    * data cleansing and standardisation;
+    * **merge:** reconciling movements with product details (price, category);
+    * **financial calculations:** automatic stock valuation (quantity × unit price);
+    * **aggregation (`groupby`):** KPIs per product type.
+3. **Load:** automatic export of a summary report (`rapport_finance.csv`) ready for analysis.
 
-## Stack Technique
-* **Langage :** Python 3.x
-* **Bibliothèque principale :** Pandas (Data Manipulation)
-* **Format de données :** CSV
+## Tech stack
+* **Language:** Python 3.x
+* **Main library:** pandas
+* **Data format:** CSV
 
-## Aperçu du Résultat
-Le script génère automatiquement un tableau de bord consolidé :
+## Result
+The script automatically generates a consolidated summary:
 
-| Produit | Quantité Totale | Valorisation (€) |
+| Product | Total quantity | Valuation (€) |
 | :--- | :---: | :---: |
-| Chaise | 8 | 360 € |
-| Lampe | 50 | 750 € |
-| Table | 5 | 600 € |
-| Tapis | 20 | 1200 € |
+| Chair | 8 | €360 |
+| Lamp | 50 | €750 |
+| Table | 5 | €600 |
+| Rug | 20 | €1,200 |
 
-## Pourquoi ce projet ?
-Ce projet démontre ma capacité à :
-* Remplacer des processus manuels (VLOOKUP Excel) par du code Python performant.
-* Manipuler des DataFrames et réaliser des agrégations complexes.
-* Structurer un code propre et maintenable pour l'industrie.
+## What this project shows
+* Replacing manual processes (Excel VLOOKUP) with efficient Python code.
+* Working with DataFrames and performing aggregations.
+* Writing clean, maintainable code.
